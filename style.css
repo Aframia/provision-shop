@@ -76,11 +76,49 @@ hr{
     width:90%;
     margin:20px 0;
 }
- button{
+.product-buttons button{
     padding:0.3em 7px;
     font-size: 1rem;
     border-radius: 50%;
     border:none;
     border:0.5px solid gray;
     background-color: white;
+}
+.order{
+    width:80%;
+    margin:auto;
+    border: 1px solid gray;
+    margin-bottom:20px;
+}
+h3{
+    text-align: center;
+}
+.order-details{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.newOrder{
+    display: flex;
+    justify-content: space-between;
+}
+.order button{
+    width:80%;
+    padding:10px;
+    margin: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.order hr{
+    width:90%;
+    margin:3px 10px;
+}
+#remove{
+    color:gray;
+    font-size: 0.8rem;
+}
+.hidden{
+    display:none;
 }
