@@ -1,7 +1,10 @@
+//imports
 import products from "/data.js"
+// DOM elements
 const storeItems = document.getElementById("items")
 
 
+// display categories
 
 products.map( product => {
     const {name} = product
@@ -16,7 +19,7 @@ products.map( product => {
 
     `
 })
-
+// display products
 function displayProducts(product){
      return product.items.map( item => {
     const {image,productDetails} = item
@@ -38,3 +41,16 @@ function displayProducts(product){
         <hr>`
      }).join("")
      }
+// increment and decrement functions
+const increment = document.querySelectorAll(".increment")
+const decrement = document.querySelectorAll(".decrement")
+
+function addQuantity(){
+    console.log("increment")
+}
+addQuantity()
+function removeQuantity(){
+    console.log("decrement")
+}
+
+removeQuantity()
