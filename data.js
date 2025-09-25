@@ -1,7 +1,12 @@
+
+import { v4 as uuidv4 } from "https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid4.min.js";
+
+uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
+//product data
 const products =[
     {
         name:"Canned Food",
-        id:"1",
+        id:uuidv4(),
         quantity:0,
         items:[
             {
@@ -11,7 +16,7 @@ const products =[
                     productPrice:"12.00",
                     isBought:false,
                     quantity:0,
-                    id:"1"
+                    id:uuidv4()
                 }
             },
               {
@@ -21,7 +26,7 @@ const products =[
                     productPrice:"9.00",
                     isBought:false,
                     quantity:0,
-                    id:"2"
+                    id:uuidv4()
                 }
             },
             {
@@ -31,7 +36,7 @@ const products =[
                     productPrice:"6.00",
                     isBought:false,
                     quantity:0,
-                    id:"3"
+                    id:uuidv4()
                 }
             },
             {
@@ -41,7 +46,7 @@ const products =[
                     productPrice:"12.00",
                     isBought:false,
                     quantity:0,
-                    id:"4"
+                    id:uuidv4()
                 }
             }
 
@@ -50,7 +55,7 @@ const products =[
     },
      {
         name:"Drinks",
-        id:"2",
+        id:uuidv4(),
         quantity:0,
         items:[
             {
@@ -60,7 +65,7 @@ const products =[
                     productPrice:"12.00",
                     isBought:false,
                     quantity:0,
-                    id:"1"
+                    id:uuidv4()
                 }
             },
             {
@@ -70,7 +75,7 @@ const products =[
                     productPrice:"12.00",
                     isBought:false,
                     quantity:0,
-                    id:"2"
+                    id:uuidv4()
                 }
             },
              {
@@ -80,7 +85,7 @@ const products =[
                     productPrice:"12.00",
                     isBought:false,
                     quantity:0,
-                    id:"1"
+                    id:uuidv4()
                 }
             }
         ]
@@ -88,7 +93,7 @@ const products =[
     },
 {
         name:"Bread",
-        id:"1",
+        id:uuidv4(),
         quantity:0,
         items:[
             {
@@ -98,7 +103,7 @@ const products =[
                 productPrice:"10.00",
                 isBought:false,
                 quantity:0,
-                id:"1"
+                id:uuidv4()
             }
         },
         {
@@ -108,7 +113,7 @@ const products =[
                     productPrice:"10.00",
                     isBought:false,
                     quantity:0,
-                    id:"2"
+                    id:uuidv4()
                 }
             },
             {
@@ -118,7 +123,7 @@ const products =[
                     productPrice:"10.00",
                     isBought:false,
                     quantity:0,
-                    id:"3"
+                    id:uuidv4()
                 }
             }
 

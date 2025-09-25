@@ -1,5 +1,6 @@
 //imports
 import products from "/data.js"
+
 // DOM elements
 const storeItems = document.getElementById("items")
 
@@ -34,7 +35,7 @@ function displayProducts(product){
             </div>
           </div>
           <div class="product-buttons">
-            <button class="increment"> + </button>
+            <button class="increment" data-action="increment"> + </button>
             <button class="decrement"> - </button>
           </div>
         </div>
