@@ -23,8 +23,8 @@ h2,
     padding-left:1.875em;
 }
 h2{
-    font-size:2.5rem;
-    padding:30px 30px 10px 30px;
+    font-size:1.5rem;
+    padding:10px 10px 10px 10px;
 }
 .product{
     display:flex;
@@ -55,7 +55,7 @@ h2{
     margin:0;
 }
 .product-image{
-    width:200px;
+    width:60px;
 }
 .product-details{
     display:flex;

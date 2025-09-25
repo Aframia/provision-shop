@@ -22,7 +22,7 @@ function displayProducts(product){
     const {image,productDetails} = item
     return `
      <div class="product" id="product">
-        <img src="${image}" alt="${productDetails.productName}">
+        <img src="${image}" alt="${productDetails.productName}" class="product-image"/>
         <div class="product-details">
             <p class="product-name">${productDetails.productName}</p>
             <div class="price-quantity">
