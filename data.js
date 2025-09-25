@@ -1,7 +1,6 @@
 
-import { v4 as uuidv4 } from "https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid4.min.js";
+import { v4 as uuidv4 } from "https://esm.sh/uuid@9";
 
-uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
 //product data
 const products =[
     {
