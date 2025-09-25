@@ -35,23 +35,23 @@ h2{
     gap:15px;
 }
 .product-name{
-    font-size:1.5rem;
+    font-size:0.8rem;
     font-weight: 600;
     margin:0;
 }
 .price{
-    font-size:1.25rem;
+    font-size:1rem;
     font-weight: 500;
     color:green;
-    margin-top:10px;
+    margin:0;
 }
 .price-quantity{
     display:flex;
-    gap:20px;
-    align-items: center;
+    flex-direction:column;
+    gap:10px;
 }
 .quantity{
-    font-size:1rem;
+    font-size:0.8rem;
     font-weight: 500;
     color:gray;
     margin:0;
@@ -71,8 +71,8 @@ h2{
     gap:20px;
 }
  button{
-    padding:0.167em 10px;
-    font-size: 1.875rem;
+    padding:0.17em 10px;
+    font-size: 1rem;
     border-radius: 50%;
     border:none;
     border:1px solid black;
